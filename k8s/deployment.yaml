@@ -15,6 +15,6 @@ spec:
       containers:
       - name: my-k8s-app
         image: b210026/my-k8s-app:v1  # your Docker Hub image
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
